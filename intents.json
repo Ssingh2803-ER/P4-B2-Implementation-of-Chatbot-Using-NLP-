@@ -1,0 +1,91 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me BCOE ChatBot","I'm BCOE ChatBot","I'm BCOE ChatBot your virtual assistant"]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this college"],
+  "responses": ["Bharat College of Engineering is Affiliated to University of Mumbai, \nBCOE is Commited to Become One of the Most Effective Educational Institute Which Create positive change agents for society \nFor Bachelors Degree we have been offering total Four Courses. \n\n1. Bachelors of Engineering Computer \n\n2. Bachelors of Engineering in Computer Science Artificial Intelligance & Machine Learning \n\n3. Bachelors of Engineering In Mechanical \n\n4. Bachelors of Engineering in Civil"]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["what will be the duration of the course", "how long will it take to complete"],
+  "responses": ["Our college offers 4 year Bachelor Degree Course"]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college"],
+  "responses": ["Bharat College of Engineering, Kanhor Goan, Opposite Gajanan Maharaj Temple, Badlapur(W) - 421502"]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are two semesters in a year."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["The single semester will be around 6 months."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements"],
+  "responses": ["\n\nStudents Registration \n\neScrutiny of Physical scrutiny & Verification by FC \n\nCET Merit List \n\nOption Form Filling \n\nAllotment Letter \n\nConformation Letter \n\nAre the Process Required For Admission"]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","how long are the classes?"],
+  "responses": ["There may be four or five classes per day, including practicals. Each class will be of 1 hour."]
+  },
+
+  {"tag": "teachingStyle",
+  "patterns": ["what is the teaching style of this college","Is the teaching pattern different from other college","what is the teaching format"],
+  "responses": ["Our college has different teaching patterns than other colleges. The teaching style uses hands-on technique and are very approachable to the students."]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like","What is the exam pattern"],
+  "responses": ["There are assignments which carry more weight than your written exams. The assignments have deadlines which you should not exceed if you want to get better marks."]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are your hours","when are you guys open","what your hours of operation"],
+  "responses": ["You can message us here at any hours. But our college premises will be open from 9:00 am to 5:00 pm only."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities","does the college conducts any fun program"],
+  "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts annual cultural fest named as SWARAJAY and also programs like Sports meet, Techno Funfair. \n Also our college has Volleyball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college","what are the facilities of college for students", "what are the college infrastructures "],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, Laboratory with AC, Seminar Hall, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","what is the fee structure"],
+  "responses": ["For all Degree Courses\nAdmission fee=RS 78,000"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
